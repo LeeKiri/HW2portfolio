@@ -19,19 +19,23 @@ hr {
     border: 0;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
   }
-  #index-image {
+#index-image {
       margin-right: 20px;
   }
-  p {
+.img-thumbnail{
+      width: 100%;
+    }
+.btn-info {
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+p {
       color: gray;
   }
-  .footer{
+.footer{
       border-top: 4px solid aquamarine;
   }
-  .img-thumbnail{
-    width: 100%;
-  }
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     #index-image {
         max-width: 30%;
     }
