@@ -12,7 +12,9 @@
 nav ul li:not(:last-child) {
     border-right: 2px solid lightslategrey;
 }
-
+.container {
+    margin-top: 50px;
+}
 h1 {
     color: aquamarine;
     font-family: serif;
