@@ -29,6 +29,9 @@ The columns are then made responsive for multiple viewpoints.
 The background colour has been set to a light grey shade for contrast in order to highlight the responsive container. 
 Links are currently storing "#" placeholders. 
 
+## custom.CSS
+This file was used for limited styles to override the bootstrap css and run a few media queries. It is organised with comments for readability. 
+
 ## URL 
 https://leekiri.github.io/profile-bootstrap/index.html
 
