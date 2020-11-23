@@ -1,6 +1,7 @@
 # profile-bootstrap
 
 ## Description
+
 In this project I created 3 pages for a personal portfolio using html, CSS and Bootstrap. 
 The project utilizes responsive mobile first design, using semantic html and accessiblity. 
 
@@ -19,7 +20,7 @@ A sticky footer which includes a centered copyright symbol.
 ## Navbar features
 
 The responsive navbar spilts into 2 rows under 768px and the text becomes centered. 
-Above 768px the brand is aligned left and the menu items aligned right in one row. The menu items display active when activated. 
+Above 768px the brand is aligned left and the menu items aligned right in one row. The menu items display black when activate. 
 
 ## Body Design
 
@@ -29,5 +30,12 @@ The background colour has been set to a light grey shade for contrast in order t
 Links are currently storing "#" placeholders. 
 
 ## URL 
+https://leekiri.github.io/profile-bootstrap/index.html
 
+## Github
+https://github.com/LeeKiri/profile-bootstrap
+Project completed with 22 commits. 
+
+## Screenshots
+[screenshopts of each page for sm md lg viewports](images\Screenshots)
 
