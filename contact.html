@@ -11,63 +11,80 @@
 </head>
 
 <body>
-  <nav>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand text-white" href="#">Lee Templeton</a>
+  
+    <nav class="navbar p-0 d-md-none flex-column navbar-light bg-light">
+      <a class="navbar-brand bg-info text-white text-center w-100" href="#">Lee Templeton</a>
 
       <div class="navbar-expand-sm" id="navbarNav">
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item">
+        <ul class="navbar-nav py-2 flex-row">
+          <li class="nav-item px-4">
             <a class="nav-link" href="index.html">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item px-4">
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item px-4 active">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <nav class="navbar p-0 d-none d-md-flex navbar-light bg-light">
+      <a class="navbar-brand bg-info text-white" href="#">Lee Templeton</a>
+
+      <div class="navbar-expand-sm" id="navbarNav">
+          <ul class="navbar-nav justify-content-end">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+          </ul>
+      </div>
   </nav>
 
-  <section>
+  <div class="container">
     <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Contact</h1>
-            <hr />
-          </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-info">Contact</h1>
+          <hr />
         </div>
+      </div>
     </header>
 
-    <div class="row">
-      <div class="col-12">
-        <form>
-          <div class="form-group">
-            <label for="formGroupExampleInput">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-              placeholder="example@gmail.com">
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </form>
+    <section>
+      <div class="row">
+        <div class="col-12">
+          <form>
+            <div class="form-group">
+              <label class="text-secondary" for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label class="text-secondary" for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+              <label class="text-secondary" for="exampleFormControlTextarea1">Message</label>
+              <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12">
-        <button type="button" class="btn btn-info mb-2">Submit</button>
+      <div class="row">
+        <div class="col-12">
+          <button type="submit" class="btn btn-info mb-2">Submit</button>
+        </div>
       </div>
-    </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <footer class="footer fixed-bottom">
     <div class="card-footer bg-secondary footer-font-style footer-position">
