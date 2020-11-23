@@ -34,8 +34,8 @@ https://leekiri.github.io/profile-bootstrap/index.html
 
 ## Github
 https://github.com/LeeKiri/profile-bootstrap
-Project completed with 22 commits. 
+Project completed with 23 commits. 
 
 ## Screenshots
-[screenshopts of each page for sm md lg viewports](images\Screenshots)
+[screenshopts of each page for sm md lg viewports](https://github.com/LeeKiri/profile-bootstrap/tree/main/images/Screenshots)
 
