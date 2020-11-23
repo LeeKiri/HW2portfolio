@@ -11,23 +11,40 @@
 </head>
 
 <body>
-  <nav>
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand bg-info text-white" href="#">Lee Templeton</a>
-      <div class="navbar-expand-sm" id="navbarNav">
-        <ul class="navbar-nav justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  <nav class="navbar p-0 d-md-none flex-column navbar-light bg-light">
+    <a class="navbar-brand py-3 bg-info text-white text-center w-100" href="#">Lee Templeton</a>
+
+    <div class="navbar-expand-sm" id="navbarNav">
+      <ul class="navbar-nav py-2 flex-row">
+        <li class="nav-item px-4 active">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item px-4">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navbar p-0 d-none d-md-flex navbar-light bg-light">
+    <a class="navbar-brand py-3 px-3 bg-info text-white" href="#">Lee Templeton</a>
+
+    <div class="navbar-expand-sm" id="navbarNav">
+      <ul class="navbar-nav justify-content-end">
+        <li class="nav-item active">
+          <a class="nav-link px-4" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-4" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 
 
@@ -47,6 +64,7 @@
         <div class="row">
           <div class="col-12">
             <img src="images\Compressed and cut.jpg" class="img-thumbnail img-fluid float-md-left" id="index-image">
+            <br>
 
             <p class="text-secondary">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -89,7 +107,7 @@
 
   <footer class="footer fixed-bottom">
     <div class="card-footer bg-secondary footer-font-style footer-position">
-      <h6 class="text-center text-light">Copyright</h6>
+      <h6 class="text-center text-light">&copy; Copyright</h6>
     </div>
   </footer>
 
